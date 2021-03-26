@@ -1,0 +1,704 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.page-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:link {
+  color: inherit;
+}
+
+p {
+  font-size: 12px;
+}
+
+/* HEADER */
+
+.header {
+  display: block;
+  margin: auto;
+}
+
+.account {
+  float: left;
+  padding-top: 40px;
+}
+
+.account img {
+  width: 25px;
+}
+
+.logo {
+  float: left;
+  padding-top: 30px;
+}
+
+.logo img {
+  display: block;
+  margin: auto;
+  width: 120px;
+}
+
+.cart {
+  float: right;
+  padding-top: 40px;
+}
+
+.cart img {
+  float: right;
+  width: 30px;
+}
+
+/* MENUBAR */
+
+.menu {
+  display: block;
+  margin: auto;
+  font-weight: 300;
+  clear: both;
+}
+
+.shop, .supply, .story {
+  float: left;
+  text-align: center;
+  padding: 40px 0 80px 0;
+}
+
+.shop p, .supply p, .story p {
+  display: block;
+  margin: auto;
+  font-size: 1em;
+}
+
+.active {
+  font-weight: bold;
+}
+
+/* HOMEPAGE BANNER */
+
+.sub-container, .supply-container {
+  border: 3px solid black;
+  content: "";
+  clear: both;
+  display: block;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+.sub-container {
+  background-image: url(images/extra/cafe1.jpg);
+  background-size: cover;
+}
+
+.supply-container {
+  background-image: url(images/extra/peoples.jpg);
+  background-size: cover;
+}
+
+.sub-container h1, .supply-container h1 {
+  padding-top: 80px;
+  font-size: 2.5rem;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.sub-container h3, .supply-container h3 {
+  padding: 40px 10px 80px 10px;
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+
+.text-box {
+  background-color: black;
+}
+
+.button {
+  margin-bottom: 80px;
+  display: inline-block;
+  border: 2px solid white;
+  padding: 10px 20px;
+  color: white;
+}
+
+.button p {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* SUBSCRIPTION */
+
+.subscription-container {
+  clear: both;
+  display: block;
+  margin: auto;
+}
+
+.subscription-container h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.settings {
+  display: block;
+  margin: auto;
+  text-align: left;
+  margin-top: 60px;
+}
+
+.sub-settings {
+  padding-bottom: 40px;
+}
+
+.sub-settings p {
+  font-size: 1.2em;
+  float: left;
+  text-align: left;
+}
+
+.dropdown {
+  float: right;
+  border: 1px solid black;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.dropdown p {
+  font-size: 12px;
+  width: 100%;
+  text-align: center;
+}
+
+/* SHOP */
+
+.shop-container {
+  display: block;
+  margin: auto;
+  clear: both;
+  overflow: hidden;
+}
+
+.shop-container h1 {
+  padding-bottom: 40px;
+  font-size: 2.5rem;
+  text-align: center;
+  clear: both;
+}
+
+.shop-item {
+  float: left;
+  padding: 10px;
+}
+
+.shop-item:hover {
+  cursor: pointer;
+}
+
+.shop-container h3 {
+  text-align: center;
+  padding: 20px 0;
+  clear: both;
+}
+
+/* SUPPLY */
+
+.lists {
+  display: block;
+  margin: auto;
+  text-align: left;
+}
+
+.supply-container h3, .supply-container h1 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.list-left li, .list-right li {
+  list-style-type: none;
+}
+
+.list-left, .list-right {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-us p {
+  clear: both;
+  font-size: 1em;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* STORY */
+
+.story-container {
+  display: block;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.story-container h1 {
+  padding-bottom: 40px;
+  font-size: 2.5rem;
+  text-align: center;
+  clear: both;
+}
+
+.our-story {
+  display: block;
+  margin: auto;
+}
+
+.story-text1, .story-text2, .story-text3 {
+  float: left;
+  padding-bottom: 20px;
+  padding-right: 10px;
+}
+
+.story-text3 {
+  padding-bottom: 40px;
+}
+
+.story-container h4 {
+  padding-bottom: 20px;
+}
+
+.story-image {
+  float: right;
+  padding: 39px 0 20px 10px;
+}
+
+.coffee-image, .organic-text {
+  float: left;
+  padding-right: 10px;
+  margin-bottom: 40px;
+  clear: both;
+}
+
+.coffee-text, .fair-trade-text {
+  float: right;
+  padding-left: 10px;
+  margin-bottom: 40px;
+}
+
+.organic-text {
+  padding-right: 30px;
+}
+
+.organic-fair-trade {
+  clear: both;
+  overflow: auto;
+  margin-top: 40px;
+}
+
+/* ACCOUNT */
+
+.account-container {
+  clear: both;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.account-container h1 {
+  padding-bottom: 40px;
+  font-size: 2.5rem;
+}
+
+.login input {
+  padding: 2px;
+}
+
+.wide-button {
+  display: block;
+  margin: auto;
+  color: white;
+  background: black;
+  padding: 3px;
+  text-align: center;
+  margin-top: 40px;
+  clear: both;
+}
+
+.wide-button p {
+  font-size: 0.7em;
+}
+
+.wide-button:hover {
+  cursor: pointer;
+}
+
+.new-account p {
+  padding-top: 10px;
+}
+
+.new-account p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* CART */
+
+.cart-container {
+  text-align: center;
+  clear: both;
+  display: block;
+  margin: auto;
+}
+
+.cart-container h1 {
+  font-size: 2.5rem;
+}
+
+.cart-container h3 {
+  padding: 40px 0 80px 0;
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+
+/* CONTACT */
+
+.contact-container {
+  display: block;
+  margin: auto;
+}
+
+.contact-container p {
+  padding-bottom: 5px;
+}
+
+.contact-container h1 {
+  padding-bottom: 60px;
+  font-size: 2.5rem;
+  text-align: center;
+  clear: both;
+}
+
+.roastery-text, .cafe-text {
+  float: left;
+  padding: 51px 0;
+  margin-bottom: 60px;
+}
+
+.roastery-map, .cafe-map {
+  float: right;
+  height: 200px;
+  margin-bottom: 60px;
+}
+
+.roastery-map iframe, .cafe-map iframe {
+  height: 200px;
+}
+
+h5 {
+  font-weight: normal;
+  font-size: 1em;
+}
+
+hr {
+  clear: both;
+  margin: 40px 0;
+}
+
+/* FOOTER */
+
+.footer {
+  text-align: center;
+  margin: auto;
+  margin-top: 120px;
+  clear: both;
+  display: block;
+  padding: 0 20px;
+}
+
+.social-links {
+  padding: 20px;
+}
+
+.social-links img {
+  width: 40px;
+  padding: 0 10px;
+}
+
+.social-links a p {
+  font-size: 0.5em;
+}
+
+/* COLUMN CSS */
+
+.col12{
+  width: 100%;
+}
+
+.col11{
+  width: 91.66%;
+}
+
+.col10{
+  width: 83.33%;
+}
+
+.col9{
+  width:75%;
+}
+
+.col8{
+  width:66.66%;
+}
+
+.col7{
+  width:58.33%;
+}
+
+.col6{
+  width:50%;
+}
+
+.col5{
+width: 41.66%;
+}
+
+.col4{
+  width:33.33%;
+}
+
+.col3{
+  width: 25%;
+}
+
+.col2 {
+  width: 16.66%;
+}
+
+.col1{
+  width: 8.33%;
+}
+
+
+
+
+/* MEDIUM SCREEN SIZE */
+
+@media only screen and (max-width : 960px) {
+
+  .colM12{
+    width: 100%;
+  }
+
+  .colM11{
+    width: 91.66%
+  }
+
+  .colM10{
+    width: 83.33%
+  }
+
+  .colM9{
+    width:75%;
+  }
+
+  .colM8{
+    width:66.66%
+  }
+
+  .colM7{
+    width:58.33%
+  }
+
+  .colM6{
+    width:50%;
+  }
+
+  .colM5{
+  width: 41.66%
+  }
+
+  .colM4{
+    width:33.33%;
+  }
+
+  .colM3{
+    width: 25%;
+  }
+
+  .colM2 {
+    width: 16.66%;
+  }
+
+  .colM1{
+    width: 8.33%
+  }
+
+  /* HOME */
+
+  .sub-container h1 {
+    font-size: 2em;
+  }
+
+  .sub-container h3 {
+    font-size: 1em;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 60px;
+  }
+
+  /* STORY */
+
+  .story-text2 {
+    padding-right: 20px;
+  }
+
+  /* SUPPLY */
+
+  .supply-container h1 {
+    font-size: 2em;
+  }
+
+  .supply-container h3 {
+    font-size: 1em;
+  }
+
+  /* STORY */
+
+  .coffee-text, .fair-trade-text {
+    padding-left: 0;
+  }
+
+  .story-container h1 {
+    font-size: 2em;
+  }
+
+}
+
+/* SMALLER SCREEN SIZE  */
+
+ @media only screen and (max-width : 660px) {
+
+  .colS12{
+    width: 100%;
+  }
+
+  .colS11{
+    width: 91.66%;
+  }
+
+  .colS10{
+    width: 83.33%;
+  }
+
+  .colS9{
+    width:75%;
+  }
+
+  .colS8{
+    width:66.66%;
+  }
+
+  .colS7{
+    width:58.33%;
+  }
+
+  .colS6{
+    width:50%;
+  }
+
+  .colS5{
+  width: 41.66%;
+  }
+
+  .colS4{
+    width:33.33%;
+  }
+
+  .colS3{
+    width: 25%;
+  }
+
+  .colS2 {
+    width: 16.66%;
+  }
+
+  .colS1{
+    width: 8.33%;
+  }
+
+  /* HOME */
+
+  .sub-container h1 {
+    font-size: 1.8em;
+  }
+
+  .button p {
+    font-size: 0.8em;
+  }
+
+  /* SUBSCRIPTION */
+
+  .subscription-container h1 {
+    font-size: 2.2rem;
+  }
+
+  /* SUPPLY */
+
+  .contact-us p {
+    font-size: 0.8em;
+  }
+
+  .list-left li, .list-right li {
+    font-size: 0.7em;
+  }
+
+  /* STORY */
+
+  .story-image {
+    padding-left: 0;
+    padding-top: 0;
+  }
+
+  /* CONTACT */
+
+  .roastery-text, .cafe-text {
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .contact-container h1 {
+    font-size: 2em;
+  }
+
+  .contact-container h4 {
+    text-align: center;
+  }
+
+  /* ACCOUNT */
+
+  .account-container h1 {
+    font-size: 2em;
+  }
+
+  /* CART */
+
+  .cart-container h1 {
+    font-size: 2em;
+  }
+
+  .cart-container h3 {
+    font-size: 1em;
+  }
+}
